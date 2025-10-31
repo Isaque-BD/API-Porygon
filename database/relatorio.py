@@ -2,6 +2,10 @@ import streamlit as st
 import pandas as pd
 import plotly.express as px
 
+
+
+print("Iniciando o aplicativo de relatórios...")
+
 # Função para carregar os dados do arquivo Excel
 def carregar_dados_excel():
     excel_file = pd.ExcelFile("infodados.xlsx")

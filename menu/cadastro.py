@@ -95,6 +95,6 @@ while True:
     else:
         print("Opção inválida. Tente novamente.")
         continue
-
+    
 arquivo_excel.save(caminho_arquivo_excel)
 arquivo_excel.close()

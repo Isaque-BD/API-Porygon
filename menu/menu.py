@@ -4,9 +4,11 @@ from openpyxl.styles import Font, Alignment
 from openpyxl.utils import get_column_letter
 from datetime import datetime, timedelta
 from openpyxl import load_workbook
+from tabulate import tabulate
 
 #Obtenha o diretório atual em que o script Python está sendo executado
 diretorio_atual = os.path.dirname(os.path.abspath(__file__ ))
+print(diretorio_atual)
 
 #Construa o caminho completo para o arquivo Excel no diretório 'database'
 caminho_arquivo_excel = os.path.join(diretorio_atual, '..', 'database', 'infodados.xlsx')
