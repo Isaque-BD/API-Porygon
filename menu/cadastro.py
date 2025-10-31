@@ -2,6 +2,8 @@ import openpyxl
 import os
 import random
 
+print("COMO QUE PROGRAMA EM JAVA VAI ME SUPERAR SE EU TO AQUI CODANDO EM PYTHON???")
+print("QUANTOS PAUS EITA PORRA")
 def gerar_id():
     return ''.join(random.choice('ABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890') for _ in range(3))
 
